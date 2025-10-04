@@ -1,0 +1,43 @@
+object FormInterfazBandejadeEntrada: TFormInterfazBandejadeEntrada
+  Left = 204
+  Height = 281
+  Top = 31
+  Width = 464
+  Caption = 'FormInterfazBandejadeEntrada'
+  ClientHeight = 281
+  ClientWidth = 464
+  object btnBandejadeEntrada: TButton
+    Left = 144
+    Height = 48
+    Top = 16
+    Width = 176
+    Caption = 'Bandeja de Entrada'
+    TabOrder = 0
+  end
+  object ListBox1: TListBox
+    Left = 24
+    Height = 152
+    Top = 112
+    Width = 416
+    ItemHeight = 0
+    TabOrder = 1
+    TopIndex = -1
+  end
+  object btnContador: TButton
+    Left = 320
+    Height = 25
+    Top = 80
+    Width = 99
+    Caption = '0'
+    TabOrder = 2
+  end
+  object btnCerrar: TButton
+    Left = 408
+    Height = 25
+    Top = 8
+    Width = 40
+    Caption = 'X'
+    TabOrder = 3
+    OnClick = btnCerrarClick
+  end
+end

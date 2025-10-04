@@ -1,0 +1,88 @@
+object FormInterfazEnviarCorreo: TFormInterfazEnviarCorreo
+  Left = 188
+  Height = 325
+  Top = 31
+  Width = 365
+  Caption = 'FormInterfazEnviarCorreo'
+  ClientHeight = 325
+  ClientWidth = 365
+  object Label1: TLabel
+    Left = 144
+    Height = 19
+    Top = 40
+    Width = 90
+    Caption = 'Enviar Correo'
+  end
+  object btnCerrar: TButton
+    Left = 312
+    Height = 25
+    Top = 8
+    Width = 43
+    Caption = 'X'
+    TabOrder = 0
+    OnClick = btnCerrarClick
+  end
+  object Label2: TLabel
+    Left = 47
+    Height = 19
+    Top = 76
+    Width = 81
+    Caption = 'Destinatario'
+  end
+  object EditDestinatario: TEdit
+    Left = 136
+    Height = 36
+    Top = 76
+    Width = 176
+    TabOrder = 1
+  end
+  object Label3: TLabel
+    Left = 47
+    Height = 19
+    Top = 128
+    Width = 45
+    Caption = 'Asunto'
+  end
+  object EditAsunto: TEdit
+    Left = 136
+    Height = 36
+    Top = 128
+    Width = 176
+    TabOrder = 2
+  end
+  object Label4: TLabel
+    Left = 47
+    Height = 19
+    Top = 176
+    Width = 56
+    Caption = 'Mensaje'
+  end
+  object Memo1: TMemo
+    Left = 136
+    Height = 90
+    Top = 176
+    Width = 176
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 3
+  end
+  object btnEnviar: TButton
+    Left = 280
+    Height = 25
+    Top = 280
+    Width = 75
+    Caption = 'Enviar'
+    TabOrder = 4
+    OnClick = btnEnviarClick
+  end
+  object btnGuardarComoBorrador: TButton
+    Left = 8
+    Height = 25
+    Top = 280
+    Width = 168
+    Caption = 'Guardar como borrador'
+    TabOrder = 5
+    OnClick = btnGuardarComoBorradorClick
+  end
+end

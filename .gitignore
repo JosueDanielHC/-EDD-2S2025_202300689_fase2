@@ -1,0 +1,18 @@
+# Lazarus / FreePascal build outputs
+*.ppu
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.res
+*.lps
+*.lpi
+*.o
+*.ppu
+*.img
+*~ 
+/.libs
+/.build
+backup/
+data/

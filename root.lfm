@@ -1,0 +1,59 @@
+object FormRoot: TFormRoot
+  Left = 258
+  Height = 240
+  Top = 31
+  Width = 309
+  Caption = 'FormRoot'
+  ClientHeight = 240
+  ClientWidth = 309
+  LCLVersion = '4.2.0.0'
+  object ROOT: TLabel
+    Left = 136
+    Height = 19
+    Top = 24
+    Width = 39
+    Caption = 'ROOT'
+  end
+  object btnCargaMasiva: TButton
+    Left = 96
+    Height = 32
+    Top = 64
+    Width = 128
+    Caption = 'Carga Masiva'
+    TabOrder = 0
+    OnClick = btnCargaMasivaClick
+  end
+  object btnComunidades: TButton
+    Left = 96
+    Height = 32
+    Top = 104
+    Width = 128
+    Caption = 'Comunidades'
+    TabOrder = 1
+  end
+  object btnReportes: TButton
+    Left = 96
+    Height = 32
+    Top = 144
+    Width = 128
+    Caption = 'Reportes'
+    TabOrder = 2
+  end
+  object btnVerMensajedeComunidad: TButton
+    Left = 64
+    Height = 40
+    Top = 184
+    Width = 200
+    Caption = 'Ver mensaje de comunidad'
+    TabOrder = 3
+  end
+  object btnCerrar: TButton
+    Left = 256
+    Height = 25
+    Top = 8
+    Width = 35
+    Caption = 'X'
+    TabOrder = 4
+    OnClick = btnCerrarClick
+  end
+end

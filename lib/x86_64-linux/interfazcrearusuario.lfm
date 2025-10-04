@@ -1,0 +1,104 @@
+object FormCrearUsuario: TFormCrearUsuario
+  Left = 204
+  Height = 307
+  Top = 31
+  Width = 320
+  Caption = 'FormCrearUsuario'
+  ClientHeight = 307
+  ClientWidth = 320
+  object Label1: TLabel
+    Left = 120
+    Height = 19
+    Top = 24
+    Width = 91
+    Caption = 'Crear Usuario'
+  end
+  object Label2: TLabel
+    Left = 48
+    Height = 19
+    Top = 56
+    Width = 54
+    Caption = 'Nombre'
+  end
+  object Label3: TLabel
+    Left = 48
+    Height = 19
+    Top = 96
+    Width = 51
+    Caption = 'Usuario'
+  end
+  object Label4: TLabel
+    Left = 47
+    Height = 19
+    Top = 136
+    Width = 64
+    Caption = 'Password'
+  end
+  object Label5: TLabel
+    Left = 47
+    Height = 19
+    Top = 176
+    Width = 38
+    Caption = 'Email'
+  end
+  object Label6: TLabel
+    Left = 47
+    Height = 19
+    Top = 216
+    Width = 57
+    Caption = 'Telefono'
+  end
+  object btnCrear: TButton
+    Left = 120
+    Height = 25
+    Top = 264
+    Width = 75
+    Caption = 'Crear'
+    TabOrder = 0
+    OnClick = btnCrearClick
+  end
+  object btnCerrar: TButton
+    Left = 272
+    Height = 25
+    Top = 8
+    Width = 35
+    Caption = 'X'
+    TabOrder = 1
+    OnClick = btnCerrarClick
+  end
+  object EditNombre: TEdit
+    Left = 120
+    Height = 36
+    Top = 56
+    Width = 168
+    TabOrder = 2
+  end
+  object EditUsuario: TEdit
+    Left = 120
+    Height = 36
+    Top = 96
+    Width = 168
+    TabOrder = 3
+  end
+  object EditPassword: TEdit
+    Left = 120
+    Height = 36
+    Top = 136
+    Width = 168
+    TabOrder = 4
+  end
+  object EditEmail: TEdit
+    Left = 120
+    Height = 36
+    Top = 176
+    Width = 168
+    TabOrder = 5
+  end
+  object EditTelefono: TEdit
+    Left = 120
+    Height = 36
+    Top = 216
+    Width = 168
+    TabOrder = 6
+  end
+end

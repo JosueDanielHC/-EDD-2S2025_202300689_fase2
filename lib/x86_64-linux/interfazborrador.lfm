@@ -1,0 +1,79 @@
+object FormInterfazBorrador: TFormInterfazBorrador
+  Left = 188
+  Height = 302
+  Top = 31
+  Width = 380
+  Caption = 'FormInterfazBorrador'
+  ClientHeight = 302
+  ClientWidth = 380
+  object LabelBorrador: TLabel
+    Left = 168
+    Height = 19
+    Top = 31
+    Width = 59
+    Caption = 'Borrador'
+  end
+  object btnCerrar: TButton
+    Left = 328
+    Height = 25
+    Top = 8
+    Width = 43
+    Caption = 'X'
+    TabOrder = 0
+    OnClick = btnCerrarClick
+  end
+  object LabelDestinatario: TLabel
+    Left = 56
+    Height = 19
+    Top = 72
+    Width = 81
+    Caption = 'Destinatario'
+  end
+  object LabelAsunto: TLabel
+    Left = 56
+    Height = 19
+    Top = 112
+    Width = 45
+    Caption = 'Asunto'
+  end
+  object LabelMensaje: TLabel
+    Left = 56
+    Height = 19
+    Top = 152
+    Width = 56
+    Caption = 'Mensaje'
+  end
+  object Memo1: TMemo
+    Left = 160
+    Height = 88
+    Top = 152
+    Width = 168
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 1
+  end
+  object EditDestinatario: TEdit
+    Left = 160
+    Height = 36
+    Top = 71
+    Width = 168
+    TabOrder = 2
+  end
+  object EditAsunto: TEdit
+    Left = 160
+    Height = 36
+    Top = 112
+    Width = 168
+    TabOrder = 3
+  end
+  object btnEnviar: TButton
+    Left = 152
+    Height = 25
+    Top = 256
+    Width = 75
+    Caption = 'Enviar'
+    TabOrder = 4
+    OnClick = btnEnviarClick
+  end
+end

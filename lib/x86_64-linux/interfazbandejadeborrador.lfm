@@ -1,0 +1,72 @@
+object FormInterfazBandejadeBorrador: TFormInterfazBandejadeBorrador
+  Left = 188
+  Height = 295
+  Top = 31
+  Width = 485
+  Caption = 'FormInterfazBandejadeBorrador'
+  ClientHeight = 295
+  ClientWidth = 485
+  OnCreate = FormCreate
+  object Label1: TLabel
+    Left = 168
+    Height = 19
+    Top = 40
+    Width = 134
+    Caption = 'Bandeja de Borrador'
+  end
+  object btnCerrar: TButton
+    Left = 432
+    Height = 25
+    Top = 8
+    Width = 43
+    Caption = 'X'
+    TabOrder = 0
+    OnClick = btnCerrarClick
+  end
+  object btnPreOrden: TButton
+    Left = 32
+    Height = 25
+    Top = 88
+    Width = 75
+    Caption = 'Pre-Orden'
+    TabOrder = 1
+    OnClick = btnPreOrdenClick
+  end
+  object btnInOrden: TButton
+    Left = 120
+    Height = 25
+    Top = 88
+    Width = 75
+    Caption = 'In-Orden'
+    TabOrder = 2
+    OnClick = btnInOrdenClick
+  end
+  object btnRefrescar: TButton
+    Left = 376
+    Height = 25
+    Top = 88
+    Width = 75
+    Caption = 'Refrescar'
+    TabOrder = 3
+    OnClick = btnRefrescarClick
+  end
+  object ListBox1: TListBox
+    Left = 32
+    Height = 136
+    Top = 128
+    Width = 432
+    ItemHeight = 0
+    TabOrder = 4
+    TopIndex = -1
+    OnClick = ListBox1Click
+  end
+  object btnPostOrden: TButton
+    Left = 213
+    Height = 25
+    Top = 88
+    Width = 91
+    Caption = 'Post-Orden'
+    TabOrder = 5
+    OnClick = btnPostOrdenClick
+  end
+end

@@ -1,0 +1,44 @@
+object FormInterfazBandejadeFavoritos: TFormInterfazBandejadeFavoritos
+  Left = 188
+  Height = 240
+  Top = 31
+  Width = 386
+  Caption = 'FormInterfazBandejadeFavoritos'
+  ClientHeight = 240
+  ClientWidth = 386
+  object LabelFavorito: TLabel
+    Left = 160
+    Height = 19
+    Top = 24
+    Width = 61
+    Caption = 'Favoritos'
+  end
+  object ListBox1: TListBox
+    Left = 24
+    Height = 128
+    Top = 88
+    Width = 336
+    ItemHeight = 0
+    TabOrder = 0
+    TopIndex = -1
+    OnClick = ListBox1Click
+  end
+  object btnContador: TButton
+    Left = 256
+    Height = 25
+    Top = 56
+    Width = 107
+    Caption = 'Contador'
+    TabOrder = 1
+    OnClick = btnContadorClick
+  end
+  object btnCerrar: TButton
+    Left = 320
+    Height = 25
+    Top = 8
+    Width = 43
+    Caption = 'X'
+    TabOrder = 2
+    OnClick = btnCerrarClick
+  end
+end
